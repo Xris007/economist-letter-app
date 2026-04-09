@@ -208,7 +208,7 @@ function Letter() {
 
       <div style={{ position: "relative", paddingLeft: 12 }}>
         <p style={{ fontSize: "0.68rem", color: "#b09080", fontStyle: "italic", marginBottom: 10, letterSpacing: "0.04em" }}>
-          Lima, 9 de abril de 2025 💐
+          Lima, 9 de abril de 2026 💐
         </p>
         <p style={{ fontFamily: "cursive", fontSize: "1.45rem", color: "#b84060", marginBottom: 10, lineHeight: 1.2 }}>
           Mi amor,
@@ -254,9 +254,6 @@ function Letter() {
   );
 }
 
-// ─────────────────────────────────────────
-//  App principal
-// ─────────────────────────────────────────
 export default function CartaEconomista() {
   const [opened, setOpened] = useState(false);
   const [hearts, setHearts] = useState([]);
